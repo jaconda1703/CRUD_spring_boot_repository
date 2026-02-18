@@ -3,7 +3,7 @@ package web.config.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import web.hibernate.model.User;
+import web.config.model.User;
 import web.service.UserService;
 
 @Controller

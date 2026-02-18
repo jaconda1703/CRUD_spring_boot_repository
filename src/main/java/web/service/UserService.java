@@ -1,9 +1,10 @@
 package web.service;
 
 import org.springframework.transaction.annotation.Transactional;
-import web.hibernate.dao.UserDao;
 import org.springframework.stereotype.Service;
-import web.hibernate.model.User;
+import web.config.dao.UserDao;
+import web.config.model.User;
+
 
 import java.util.List;
 

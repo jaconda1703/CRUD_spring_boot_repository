@@ -3,7 +3,8 @@ package web.config.dao;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
-import web.hibernate.model.User;
+import web.config.model.User;
+
 
 import java.util.List;
 
